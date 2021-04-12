@@ -1,0 +1,107 @@
+@media screen and (max-width: 991px){
+  main {
+    margin-left: 0;
+  }
+  footer{
+    margin-left: 0;
+  }
+  .side-nav-content{
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: -250px;
+    transition: .4s ease;
+  }
+}
+@media screen and (max-width: 992px){
+  h1{
+    font-size: 50px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .social-links a i{
+    font-size: 15px;
+  }
+  .social-links a {
+    margin: 5px 0;
+    width: 35px;
+    height: 35px;
+  }
+  .side-nav-content.opened{
+    left: 0;
+  }
+  .personal-info h6{
+    font-size: 14px;
+  }
+  .personal-info h5{
+    font-size: 20px;
+  }
+  .nav-list .nav-item .nav-link{
+    font-size: 16px;
+  }
+  .let-talk{
+    font-size: 14px;
+  }
+  .btn-hover.color-2 {
+    border: 1px solid #0b0952;
+  }
+  .about-detail-info{
+    margin-bottom: 20px;
+  }
+  .social-link-footer a{
+    margin: 0 10px;
+  }
+  .contact-me-question{
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .margin-top{
+    margin-top: 10px;
+  }
+  .personal-info .profile-img{
+    width: 100px;
+  }
+  .heading{
+    font-size: 30px;
+  }
+  .personal-info .profile-img img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -webkit-animation: animate 1s linear infinite;
+            animation: animate 1s linear infinite;
+  }
+  .experience-content{
+    font-size: 14px;
+  }
+  .project-content .project-heading .project-heading-title{
+    font-size: 30px;
+  }
+  .footer-content h6{
+    font-size: 12px;
+  }
+  .more-detail a{
+    font-size: 12px;
+  }
+  .more-detail{
+    padding: 5px 10px;
+  }
+  .social-link-footer{
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 400px){
+  .skills-info{
+    padding: 0 0px;
+  }
+  form{
+    margin: 0 0px;
+  }
+}
